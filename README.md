@@ -26,4 +26,11 @@ Người mua có quyền truy cập vào các chức năng sau:
 
 ## Bảo mật
 
-FourLeavesShoes đã được xây dựng với những biện pháp bảo mật sau đây để đảm bảo an toàn cho người d
+FourLeavesShoes đã được xây dựng với những biện pháp bảo mật sau đây để đảm bảo an toàn cho người dùng:
+
+- Bảo vệ khỏi cuộc tấn công CSRF (Cross-Site Request Forgery): FourLeavesShoes sử dụng các anti-CSRF token để kiểm tra tính hợp lệ của các yêu cầu từ người dùng và ngăn chặn cuộc tấn công CSRF.
+- Bảo vệ khỏi cuộc tấn công Brute Force: FourLeavesShoes áp dụng chính sách đặt mật khẩu để ngăn chặn cuộc tấn công Brute Force.
+- Bảo vệ khỏi cuộc tấn công Clickjacking: FourLeavesShoes sử dụng HTTP header frame options để ngăn chặn cuộc tấn công Clickjacking.
+- Bảo vệ khỏi cuộc tấn công XSS (Cross-Site Scripting): FourLeavesShoes áp dụng các biện pháp lọc đầu vào và mã hóa đầu ra bằng công nghệ Thymeleaf để ngăn chặn cuộc tấn công XSS.
+
+Đồ án FourLeavesShoes cung cấp một trải nghiệm mua sắm trực tuyến an toàn và thuận tiện cho người dùng, đồng thời cung cấp cho người bán các công cụ quản lý linh hoạt để điều hành hoạt động kinh doanh.
