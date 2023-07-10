@@ -34,3 +34,85 @@ FourLeavesShoes đã được xây dựng với những biện pháp bảo mật
 - Bảo vệ khỏi cuộc tấn công XSS (Cross-Site Scripting): FourLeavesShoes áp dụng các biện pháp lọc đầu vào và mã hóa đầu ra bằng công nghệ Thymeleaf để ngăn chặn cuộc tấn công XSS.
 
 Đồ án FourLeavesShoes cung cấp một trải nghiệm mua sắm trực tuyến an toàn và thuận tiện cho người dùng, đồng thời cung cấp cho người bán các công cụ quản lý linh hoạt để điều hành hoạt động kinh doanh.
+
+
+# Giải thích code
+
+## Phần 1: Spring boot crud, các thao tác tra cứu, mua hàng
+Tìm hiểu các kiến trúc, cách chia các package, cách thức thêm, đọc, xóa, chỉnh sửa dữ liệu.
+
+[Link chi tiết](/ReadmeFiles/crud.md)
+
+(Bấm vào link để xem hoặc vào `crud.md`)
+
+## Phần 2: Spring Security
+Tìm hiểu cách cấu hình Authentication và Authorization cơ bản.
+
+Tìm hiểu cách phòng chống các thuộc tấn công CSRF, Brute Force, XSS và ClickJacking
+
+[Link chi tiết](/ReadmeFiles/security.md)
+
+(Bấm vào link để xem hoặc vào `security.md`)
+
+## Phần 3: Xử lý Exception and Validation
+Tìm hiểu cách tạo các exception và xử lý các exception chung.
+
+[Link chi tiết](/ReadmeFiles/exception.md)
+
+(Bấm vào link để xem hoặc vào `exception.md`)
+
+## Phần 4: Tối ưu hiệu suất và bộ nhớ Cache
+
+## Phần 5: Testing and Logging
+
+## Phần 6: Spring Cloud
+
+# Demo
+# Với Guess, có các chức năng như sau:
+- Đăng nhập
+![Alt text](/ReadmeFiles/image-15.png)
+
+- Đăng ký
+![Alt text](/ReadmeFiles/image-16.png)
+
+- Xem, tra cứu sản phẩm
+![Alt text](/ReadmeFiles/image-17.png)
+
+- ![Alt text](/ReadmeFiles/image-18.png)
+
+- Phản về về web (lỗi trong đăng nhập, đăng ký)
+![Alt text](/ReadmeFiles/image-19.png)
+
+- Thêm sản phẩm vào giỏ hàng tạm thời, nếu đăng nhập thì những sản phẩm đó sẽ được thêm vào giỏ hàng của user.
+![Alt text](/ReadmeFiles/image-20.png)
+
+# Với User, có các chức năng như sau:
+- Có các chức năng kế thừa từ Guess
+- Đặt đơn hàng, thanh toán hóa đơn.
+![Alt text](/ReadmeFiles/image-21.png)
+
+- ![Alt text](/ReadmeFiles/image-22.png)
+
+- ![Alt text](/ReadmeFiles/image-23.png)
+
+- Chỉnh sửa thông tin tài khoản.
+![Alt text](/ReadmeFiles/image-24.png)
+
+- Xem lịch sử đặt hàng
+![Alt text](/ReadmeFiles/image-25.png)
+
+- Đổi mật khẩu.
+![Alt text](/ReadmeFiles/image-26.png)
+
+# Với Admin (tài khoản đăng nhập: 'admin' ; mật khẩu: '123'), có các chức năng chính như sau:
+- CRUD Account, Client, Order, Employee, Product, Category, Material
+![Alt text](/ReadmeFiles/image-27.png)
+
+- Create
+![Alt text](/ReadmeFiles/image-28.png)
+
+- Update
+![Alt text](/ReadmeFiles/image-29.png)
+
+- Delete
+![Alt text](/ReadmeFiles/image-30.png)
