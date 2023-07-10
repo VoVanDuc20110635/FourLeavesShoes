@@ -1,4 +1,4 @@
-[Link chi tiết](ReadmeTest.readme)
+[Link chi tiết](/ReadmeFiles/ReadmeTest.md)
 # FourLeavesShoes - Giới thiệu đồ án
 
 FourLeavesShoes là một website bán giày trực tuyến với đầy đủ chức năng cho cả người bán và người mua. Website này được thiết kế để đáp ứng nhu cầu mua sắm giày của khách hàng và giúp người bán quản lý thông tin sản phẩm, người dùng và các hoạt động kinh doanh.
